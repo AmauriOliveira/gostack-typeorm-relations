@@ -30,7 +30,7 @@ export default class CreateCustomers1607803541237
             default: 'now()',
           },
           {
-            name: 'update_at',
+            name: 'updated_at',
             type: 'timestamp',
             default: 'now()',
           },

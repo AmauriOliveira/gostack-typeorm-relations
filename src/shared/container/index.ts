@@ -20,6 +20,6 @@ container.registerSingleton<IProductsRepository>(
 );
 
 container.registerSingleton<IOrdersRepository>(
-  'CustomersRepository',
+  'OrdersRepository',
   OrdersRepository,
 );

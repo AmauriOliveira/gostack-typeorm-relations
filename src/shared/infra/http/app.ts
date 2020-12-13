@@ -1,8 +1,9 @@
 import 'reflect-metadata';
 
 import express, { Request, Response, NextFunction } from 'express';
-import 'express-async-errors';
 import cors from 'cors';
+// derve para  o express suportar  erros async
+import 'express-async-errors';
 
 import AppError from '@shared/errors/AppError';
 import createConnection from '@shared/infra/typeorm';
